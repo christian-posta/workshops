@@ -1,13 +1,3 @@
-* canary introduction of sidecars
-* suggestions for rollout of sidecar using revisions/sidecar injection
-* pre hook configurations
-proxyConfig.holdApplicationUntilProxyStarts
-
-* enable access logs for certain services
-* tips avoid 503s on virtual service
-
-== should use existing sample-apps/ dir
-
 # Lab 5 :: Add Services to Istio
 
 In this lab, we'll add services gradually to the Istio service mesh we installed in earlier labs. We will cover how to examine envoy configuration for your services, how to delay your application from starting until the sidecar proxy is ready, how to enable access logs for a given service and some tips to avoid 503s. 
